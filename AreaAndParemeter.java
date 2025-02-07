@@ -1,0 +1,15 @@
+import java.util.*;
+class  AreaAndParemeter
+{
+	public static void main(String[] args) 
+	{   
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter Length :");
+		int length=sc.nextInt();
+		System.out.println("Enter width :");
+		int width=sc.nextInt();
+        int p=2*(length+width);
+		System.out.println("The Area of rectangle is :"+ length*width);
+		System.out.println("The Perimeter of rectangle is :"+p);
+	}
+}

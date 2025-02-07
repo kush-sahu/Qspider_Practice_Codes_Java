@@ -1,0 +1,11 @@
+class Operator1
+{
+	public static void main(String[] args) 
+	{
+		
+        String  a="Kush";
+		String b="Sahu";
+		String c=b*a;
+		System.out.println(c);
+	}
+}

@@ -1,0 +1,13 @@
+import java.util.*;
+class UpperCase 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.print("Enter Char:");
+		char c=sc.next().charAt(0);
+     System.out.println(((c>='A' && c<='Z')|| (c>='a' && c<='z'))?(((c>='a' && c<='z')?("Entered char is Lower Case char"):("Entered char is Upper Case char"))):((c>='0' && c<='9')?("is an degits"):("is an special char")));
+
+		
+	}
+}

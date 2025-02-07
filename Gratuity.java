@@ -1,0 +1,17 @@
+import java.util.Scanner;
+class Gratuity 
+{
+	public static void main(String[] args) 
+	{
+         Scanner sc=new Scanner(System.in);
+		System.out.println("Enter number for subtotal: ");
+		double n1=sc.nextInt();
+		System.out.println("Enter number for gratuity  rate:");
+		double n2=(double)sc.nextInt();
+        double ans1=(n2/100)*10;
+		double ans2=n1+ans1;
+		System.out.println("ans1 :" +ans1);
+        System.out.println("ans2 :" +ans2);
+
+	}
+}

@@ -1,0 +1,12 @@
+import java.util.*;
+class Month 
+{
+	public static void main(String[] args) 
+	{ 
+		Scanner sc=new Scanner(System.in);
+		System.out.print("Enter marks :");
+		String n=sc.nextLine();
+        String a=(n.equals("feb") || n.equals("mar") || n.equals("apr") || n.equals("may") )?("SUMMER"):((n.equals("jan")||n.equals("dec") ||n.equals("nov") || n.equals("oct"))?("WINTER"):("MANSOON"));
+		System.out.println(a);
+		}
+}

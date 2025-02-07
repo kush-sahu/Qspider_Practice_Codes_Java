@@ -1,0 +1,26 @@
+class Ascii 
+{
+	public static void main(String[] args) 
+	{
+
+		for(int i=0;i<=127;i++){
+           System.out.print(i +" : "+ ((char)i));
+		}
+
+		for(char c='a';c<='z';c++){
+			System.out.print(c +" ");
+		}
+		for(char c='A';c<='Z';c++){
+			System.out.print(c +" ");
+		}
+
+		for(char c='Z';c>='A';c--){
+			System.out.print(c +" ");
+		}
+		 
+		 for(char c='0';c<='9';c++){
+			System.out.print(c +" ");
+		}
+
+	}
+}

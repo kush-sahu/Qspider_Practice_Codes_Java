@@ -1,0 +1,12 @@
+import java.util.*;
+class Percent 
+{
+	public static void main(String[] args) 
+	{ 
+		Scanner sc=new Scanner(System.in);
+		System.out.print("Enter marks :");
+		int n=sc.nextInt();
+		int ans=(600*100)/n;
+        System.out.println(ans>=35)?((ans>=75 && ans<=100)?("A"):((ans>=60 && ans<=75)?("B"):( (ans>=36 && ans<=60)?("C"):("fail")))):("fail"));
+	}
+}

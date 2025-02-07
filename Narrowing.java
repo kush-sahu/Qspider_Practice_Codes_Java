@@ -1,0 +1,20 @@
+class Narrowing 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println((int)20.34);
+		System.out.println((char)120);
+		int i=(int)43.3;
+		System.out.println(i);
+
+		char ch=(char) 56.54;
+		System.out.println(ch);
+
+		byte b= (byte)2001;
+		System.out.println(b);
+
+		byte bt=-100;
+		char c=(char) bt;
+		System.out.println(c);
+	}
+}

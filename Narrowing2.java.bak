@@ -1,0 +1,19 @@
+class  Narrowing2
+{
+	public static void main(String[] args) 
+	{
+		float a=57.89;
+		
+		long c=(long)a;
+		int d=(int)a;
+		short e=(short)a;
+		byte f=(byte)a;
+        char g=(char)a;
+		System.out.println(a);//57.89
+		System.out.println(c);//57
+		System.out.println(d);//57
+		System.out.println(e);//57
+		System.out.println(f);//57
+		System.out.println(g);//'9'
+	}
+}

@@ -1,0 +1,22 @@
+class Switch 
+{
+	public static void main(String[] args) 
+	{
+		int a=1;
+
+		switch(a){
+			case 1:
+			{
+				System.out.println("Case 1 executed");
+			}
+			case 2:
+			{
+				System.out.println("Case 2 executed");
+			}
+			default :
+			{
+				System.out.println("Default executed");
+			}
+		}
+	}
+}
